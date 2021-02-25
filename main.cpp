@@ -189,7 +189,7 @@ int main()
             KeyEvent::push(c);  // call the KeyEvent.
     }
 
-    // stop and cleanup is also dont by the destructor
+    // stop and cleanup is also done by the destructor
     event_handler.stop();
     event_handler.cleanup();
 
